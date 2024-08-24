@@ -68,7 +68,6 @@ def Gameplay():
     Default_player.guess.clear()
 level_select()
 level_creator()
-print(Default_player.lock_pin)
 while Default_player.guess != Default_player.lock_pin:
   Gameplay()
 quit()
